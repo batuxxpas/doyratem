@@ -4,6 +4,8 @@ import PageBanner from "@/components/ui/PageBanner";
 import SectionTitle from "@/components/ui/SectionTitle";
 import { getReferences, getSeoByPageKey } from "@/lib/data";
 
+export const dynamic = 'force-dynamic';
+
 export async function generateMetadata(): Promise<Metadata> {
   const seo = await getSeoByPageKey("references");
   return {

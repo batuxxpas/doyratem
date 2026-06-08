@@ -4,6 +4,8 @@ import Image from "next/image";
 import type { Metadata } from "next";
 import PageBanner from "@/components/ui/PageBanner";
 import { getServiceBySlug, getServices } from "@/lib/data";
+
+export const dynamic = 'force-dynamic';
 import { serviceJsonLd } from "@/lib/seo";
 
 interface Props {

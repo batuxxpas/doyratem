@@ -5,6 +5,8 @@ import type { Metadata } from "next";
 import PageBanner from "@/components/ui/PageBanner";
 import { getBlogPostBySlug, getBlogPosts } from "@/lib/data";
 
+export const dynamic = 'force-dynamic';
+
 interface Props {
   params: Promise<{ slug: string }>;
 }

@@ -5,6 +5,8 @@ import SectionTitle from "@/components/ui/SectionTitle";
 import ProductCard from "@/components/products/ProductCard";
 import { getProducts, getCategories, getSeoByPageKey } from "@/lib/data";
 
+export const dynamic = 'force-dynamic';
+
 export async function generateMetadata(): Promise<Metadata> {
   const seo = await getSeoByPageKey("products");
   return {

@@ -5,6 +5,8 @@ import PageBanner from "@/components/ui/PageBanner";
 import SectionTitle from "@/components/ui/SectionTitle";
 import { getBlogPosts } from "@/lib/data";
 
+export const dynamic = 'force-dynamic';
+
 export const metadata: Metadata = {
   title: "Blog | Doyratem Hijyen",
   description:

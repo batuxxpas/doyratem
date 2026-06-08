@@ -3,6 +3,8 @@ import Link from "next/link";
 import type { Metadata } from "next";
 import PageBanner from "@/components/ui/PageBanner";
 import ProductCard from "@/components/products/ProductCard";
+
+export const dynamic = 'force-dynamic';
 import { getCategoryBySlug, getCategories, getProductsByCategory } from "@/lib/data";
 import { breadcrumbJsonLd } from "@/lib/seo";
 

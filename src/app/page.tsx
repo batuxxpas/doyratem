@@ -7,6 +7,8 @@ import CategoriesSection from "@/components/home/CategoriesSection";
 import CTASection from "@/components/home/CTASection";
 import { getSeoByPageKey } from "@/lib/data";
 
+export const dynamic = 'force-dynamic';
+
 export async function generateMetadata(): Promise<Metadata> {
   const seo = await getSeoByPageKey("home");
   return {

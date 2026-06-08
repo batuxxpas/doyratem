@@ -4,6 +4,8 @@ import Link from "next/link";
 import PageBanner from "@/components/ui/PageBanner";
 import SectionTitle from "@/components/ui/SectionTitle";
 import { getServices, getSeoByPageKey } from "@/lib/data";
+
+export const dynamic = 'force-dynamic';
 import { serviceJsonLd } from "@/lib/seo";
 
 export async function generateMetadata(): Promise<Metadata> {
