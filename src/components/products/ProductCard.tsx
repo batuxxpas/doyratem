@@ -1,5 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
+import { isValidImage } from "@/lib/utils";
 
 interface ProductCardProps {
   name: string;
@@ -10,7 +11,7 @@ interface ProductCardProps {
 }
 
 export default function ProductCard({ name, slug, brand, image, categoryName }: ProductCardProps) {
-  const hasImage = image && !image.includes("placeholder");
+  const hasImage = isValidImage(image);
 
   return (
     <Link href={`/urunler/${slug}`} className="group block">

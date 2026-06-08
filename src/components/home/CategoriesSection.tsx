@@ -3,6 +3,7 @@ import Image from "next/image";
 import SectionTitle from "@/components/ui/SectionTitle";
 import AnimateOnScroll from "@/components/ui/AnimateOnScroll";
 import { getCategories } from "@/lib/data";
+import { isValidImage } from "@/lib/utils";
 
 export default async function CategoriesSection() {
   const categories = await getCategories();
@@ -27,7 +28,7 @@ export default async function CategoriesSection() {
               >
                 <div className="p-6 lg:p-8">
                   <div className="w-12 h-12 bg-cyan-50 group-hover:bg-cyan-600 rounded-xl flex items-center justify-center mb-4 transition-colors overflow-hidden relative">
-                    {category.image && !category.image.includes("placeholder") ? (
+                    {isValidImage(category.image) ? (
                       <Image
                         src={category.image}
                         alt={category.name}

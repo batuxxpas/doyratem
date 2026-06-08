@@ -3,6 +3,7 @@ import Image from "next/image";
 import PageBanner from "@/components/ui/PageBanner";
 import SectionTitle from "@/components/ui/SectionTitle";
 import { getReferences, getSeoByPageKey } from "@/lib/data";
+import { isValidImage } from "@/lib/utils";
 
 export const dynamic = 'force-dynamic';
 
@@ -55,7 +56,7 @@ export default async function ReferanslarPage() {
                   className="bg-white border border-slate-100 rounded-2xl p-6 text-center hover:shadow-lg hover:border-slate-200 transition-all"
                 >
                   <div className="w-16 h-16 bg-slate-50 rounded-2xl mx-auto mb-4 flex items-center justify-center overflow-hidden relative">
-                    {ref.image ? (
+                    {isValidImage(ref.image) ? (
                       <Image
                         src={ref.image}
                         alt={ref.name}

@@ -4,6 +4,7 @@ import Image from "next/image";
 import type { Metadata } from "next";
 import PageBanner from "@/components/ui/PageBanner";
 import { getBlogPostBySlug, getBlogPosts } from "@/lib/data";
+import { isValidImage } from "@/lib/utils";
 
 export const dynamic = 'force-dynamic';
 
@@ -74,7 +75,7 @@ export default async function BlogDetailPage({ params }: Props) {
           </div>
 
           {/* Cover Image */}
-          {post.image && (
+          {isValidImage(post.image) && (
             <div className="rounded-2xl overflow-hidden mb-10 aspect-[16/9] relative">
               <Image
                 src={post.image}

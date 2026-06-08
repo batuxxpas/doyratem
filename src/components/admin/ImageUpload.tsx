@@ -145,7 +145,7 @@ export default function ImageUpload({ folder, currentImage, onUploaded }: ImageU
               width={400}
               height={192}
               className="w-full h-full object-cover"
-              unoptimized={preview.startsWith("blob:")}
+              unoptimized={preview.startsWith("blob:") || !preview.startsWith("https://")}
             />
           </div>
           {uploading && (

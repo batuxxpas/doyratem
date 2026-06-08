@@ -4,6 +4,8 @@ import Image from "next/image";
 import type { Metadata } from "next";
 import PageBanner from "@/components/ui/PageBanner";
 
+import { isValidImage } from "@/lib/utils";
+
 export const dynamic = 'force-dynamic';
 import { getProductBySlug, getProducts, getCategories, getCategoryById } from "@/lib/data";
 import { productJsonLd, breadcrumbJsonLd } from "@/lib/seo";
@@ -89,7 +91,7 @@ export default async function ProductDetailPage({ params }: Props) {
             {/* Product Image */}
             <div>
               <div className="bg-slate-50 rounded-3xl aspect-square relative overflow-hidden">
-                {product.image && !product.image.includes("placeholder") ? (
+                {isValidImage(product.image) ? (
                   <Image
                     src={product.image}
                     alt={product.name}

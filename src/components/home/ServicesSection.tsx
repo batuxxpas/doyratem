@@ -3,6 +3,7 @@ import Image from "next/image";
 import SectionTitle from "@/components/ui/SectionTitle";
 import AnimateOnScroll from "@/components/ui/AnimateOnScroll";
 import { getFeaturedServices } from "@/lib/data";
+import { isValidImage } from "@/lib/utils";
 
 const staggerClasses = ["stagger-1", "stagger-2", "stagger-3", "stagger-4"];
 
@@ -35,7 +36,7 @@ export default async function ServicesSection() {
                 className="group bg-white rounded-2xl overflow-hidden border border-slate-100 hover:border-cyan-200 hover:shadow-xl transition-all duration-300 block"
               >
                 <div className="aspect-[16/10] relative overflow-hidden bg-slate-100">
-                  {service.image ? (
+                  {isValidImage(service.image) ? (
                     <Image
                       src={service.image}
                       alt={service.title}

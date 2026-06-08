@@ -4,6 +4,7 @@ import Image from "next/image";
 import PageBanner from "@/components/ui/PageBanner";
 import SectionTitle from "@/components/ui/SectionTitle";
 import { getBlogPosts } from "@/lib/data";
+import { isValidImage } from "@/lib/utils";
 
 export const dynamic = 'force-dynamic';
 
@@ -49,7 +50,7 @@ export default async function BlogPage() {
                 <article key={post.id} className="bg-white rounded-2xl border border-slate-100 overflow-hidden hover:shadow-lg transition-shadow group">
                   <Link href={`/blog/${post.slug}`}>
                     <div className="aspect-[16/9] bg-slate-100 relative overflow-hidden">
-                      {post.image ? (
+                      {isValidImage(post.image) ? (
                         <Image
                           src={post.image}
                           alt={post.title}

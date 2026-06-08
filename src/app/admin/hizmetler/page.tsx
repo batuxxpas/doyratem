@@ -5,6 +5,7 @@ import Image from "next/image";
 import type { Service } from "@/lib/types";
 import ImageUpload from "@/components/admin/ImageUpload";
 import DeleteModal from "@/components/admin/DeleteModal";
+import { isValidImage } from "@/lib/utils";
 
 const MAX_FEATURED = 4;
 
@@ -282,7 +283,7 @@ export default function AdminHizmetlerPage() {
               {services.map((service) => (
                 <tr key={service.id} className="border-b border-slate-50 hover:bg-slate-50 transition-colors">
                   <td className="px-5 py-3">
-                    {service.image ? (
+                    {isValidImage(service.image) ? (
                       <div className="w-14 h-10 rounded-lg overflow-hidden bg-slate-100 relative">
                         <Image src={service.image} alt={service.title} fill className="object-cover" sizes="56px" />
                       </div>

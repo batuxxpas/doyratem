@@ -4,6 +4,7 @@ import Link from "next/link";
 import PageBanner from "@/components/ui/PageBanner";
 import SectionTitle from "@/components/ui/SectionTitle";
 import { getServices, getSeoByPageKey } from "@/lib/data";
+import { isValidImage } from "@/lib/utils";
 
 export const dynamic = 'force-dynamic';
 import { serviceJsonLd } from "@/lib/seo";
@@ -100,7 +101,7 @@ export default async function HizmetlerPage() {
                 </div>
                 <div className={index % 2 === 1 ? "lg:order-1" : ""}>
                   <div className="bg-slate-100 rounded-3xl aspect-video relative overflow-hidden">
-                    {service.image && !service.image.includes("placeholder") ? (
+                    {isValidImage(service.image) ? (
                       <Image
                         src={service.image}
                         alt={service.title}
