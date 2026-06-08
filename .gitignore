@@ -38,4 +38,12 @@ yarn-error.log*
 
 # typescript
 *.tsbuildinfo
+
+# database
+data/database.db
+data/database.db-wal
+data/database.db-shm
+
+# drizzle migrations
+/drizzle
 next-env.d.ts

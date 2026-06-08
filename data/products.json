@@ -1,0 +1,406 @@
+[
+  {
+    "id": "prod-1",
+    "name": "Islak Mop Aparatı Dar Metal",
+    "slug": "islak-mop-aparati-dar-metal",
+    "description": "Yüksek kaliteli metal gövdeli dar islak mop aparatı. Profesyonel temizlik için tasarlanmış dayanıklı yapı. Kolay montaj ve kullanım kolaylığı sağlar.",
+    "categoryId": "cat-1",
+    "brand": "Doyratem",
+    "image": "/images/products/islak-mop-dar-metal.jpg",
+    "images": [
+      "/images/products/islak-mop-dar-metal.jpg"
+    ],
+    "specs": {
+      "Malzeme": "Metal",
+      "Genişlik": "40 cm",
+      "Ağırlık": "350 g"
+    },
+    "featured": true,
+    "order": 1,
+    "createdAt": "2024-01-15"
+  },
+  {
+    "id": "prod-2",
+    "name": "Islak Mop Aparatı Dar Plastik",
+    "slug": "islak-mop-aparati-dar-plastik",
+    "description": "Hafif ve dayanıklı plastik gövdeli dar islak mop aparatı. Günlük temizlik işleri için ideal çözüm sunar.",
+    "categoryId": "cat-1",
+    "brand": "Doyratem",
+    "image": "/images/products/islak-mop-dar-plastik.jpg",
+    "images": [
+      "/images/products/islak-mop-dar-plastik.jpg"
+    ],
+    "specs": {
+      "Malzeme": "Plastik",
+      "Genişlik": "40 cm",
+      "Ağırlık": "200 g"
+    },
+    "featured": false,
+    "order": 2,
+    "createdAt": "2024-01-15"
+  },
+  {
+    "id": "prod-3",
+    "name": "Islak Mop Aparatı Geniş Metal",
+    "slug": "islak-mop-aparati-genis-metal",
+    "description": "Geniş yüzeylerin temizliği için metal gövdeli mop aparatı. Endüstriyel kullanıma uygun dayanıklı tasarım.",
+    "categoryId": "cat-1",
+    "brand": "Doyratem",
+    "image": "/images/products/islak-mop-genis-metal.jpg",
+    "images": [
+      "/images/products/islak-mop-genis-metal.jpg"
+    ],
+    "specs": {
+      "Malzeme": "Metal",
+      "Genişlik": "60 cm",
+      "Ağırlık": "500 g"
+    },
+    "featured": true,
+    "order": 3,
+    "createdAt": "2024-01-15"
+  },
+  {
+    "id": "prod-4",
+    "name": "Çekpas Plastik",
+    "slug": "cekpas-plastik",
+    "description": "Plastik gövdeli profesyonel çekpas. Islak zeminlerin kurulanması için idealdir.",
+    "categoryId": "cat-1",
+    "brand": "Doyratem",
+    "image": "/images/products/cekpas-plastik.jpg",
+    "images": [
+      "/images/products/cekpas-plastik.jpg"
+    ],
+    "specs": {
+      "Malzeme": "Plastik",
+      "Genişlik": "55 cm"
+    },
+    "featured": false,
+    "order": 4,
+    "createdAt": "2024-01-15"
+  },
+  {
+    "id": "prod-5",
+    "name": "Çekpas Metal Tek Lastikli",
+    "slug": "cekpas-metal-tek-lastikli",
+    "description": "Metal gövdeli tek lastikli çekpas. Endüstriyel zeminler için yüksek performans sağlar.",
+    "categoryId": "cat-1",
+    "brand": "Doyratem",
+    "image": "/images/products/cekpas-metal.jpg",
+    "images": [
+      "/images/products/cekpas-metal.jpg"
+    ],
+    "specs": {
+      "Malzeme": "Metal",
+      "Lastik": "Doğal kauçuk",
+      "Genişlik": "55 cm"
+    },
+    "featured": false,
+    "order": 5,
+    "createdAt": "2024-01-16"
+  },
+  {
+    "id": "prod-6",
+    "name": "Cam Çek Süngerli",
+    "slug": "cam-cek-sungerli",
+    "description": "Süngerli cam çekmece aparatı. Cam yüzeylerin hızlı ve lekesiz temizliği için profesyonel çözüm.",
+    "categoryId": "cat-2",
+    "brand": "Doyratem",
+    "image": "/images/products/cam-cek-sungerli.jpg",
+    "images": [
+      "/images/products/cam-cek-sungerli.jpg"
+    ],
+    "specs": {
+      "Malzeme": "Alüminyum + Sünger",
+      "Genişlik": "35 cm"
+    },
+    "featured": true,
+    "order": 6,
+    "createdAt": "2024-01-16"
+  },
+  {
+    "id": "prod-7",
+    "name": "Cam Peluşu Aparatı",
+    "slug": "cam-pelusu-aparati",
+    "description": "Cam temizleme peluşu aparatı. Yüksek emicilik kapasitesiyle cam yüzeylerde mükemmel temizlik sağlar.",
+    "categoryId": "cat-2",
+    "brand": "Pulex",
+    "image": "/images/products/cam-pelusu-aparati.jpg",
+    "images": [
+      "/images/products/cam-pelusu-aparati.jpg"
+    ],
+    "specs": {
+      "Malzeme": "Mikrofiber Peluş",
+      "Genişlik": "35 cm"
+    },
+    "featured": false,
+    "order": 7,
+    "createdAt": "2024-01-16"
+  },
+  {
+    "id": "prod-8",
+    "name": "Cam Kazıma Aparatı Plastik",
+    "slug": "cam-kazima-aparati-plastik",
+    "description": "Plastik gövdeli cam kazıma aparatı. Cam üzerindeki yapışkan kalıntıları güvenle kaldırır.",
+    "categoryId": "cat-2",
+    "brand": "Doyratem",
+    "image": "/images/products/cam-kazima-aparati.jpg",
+    "images": [
+      "/images/products/cam-kazima-aparati.jpg"
+    ],
+    "specs": {
+      "Malzeme": "Plastik + Çelik Bıçak"
+    },
+    "featured": false,
+    "order": 8,
+    "createdAt": "2024-01-17"
+  },
+  {
+    "id": "prod-9",
+    "name": "İçten Çekmeli Tuvalet Kağıdı",
+    "slug": "icten-cekmeli-tuvalet-kagidi",
+    "description": "Endüstriyel kullanım için içten çekmeli tuvalet kağıdı. Hijyenik dağıtım sistemi ile tasarruf sağlar.",
+    "categoryId": "cat-3",
+    "brand": "Focus",
+    "image": "/images/products/icten-cekmeli-tuvalet.jpg",
+    "images": [
+      "/images/products/icten-cekmeli-tuvalet.jpg"
+    ],
+    "specs": {
+      "Kat": "2 Katlı",
+      "Metre": "200 m",
+      "Adet": "6'lı Paket"
+    },
+    "featured": true,
+    "order": 9,
+    "createdAt": "2024-01-17"
+  },
+  {
+    "id": "prod-10",
+    "name": "Enmotion Havlu",
+    "slug": "enmotion-havlu",
+    "description": "Sensörlü dispenserler için uyumlu enmotion havlu. Hijyenik ve ekonomik kullanım sunar.",
+    "categoryId": "cat-3",
+    "brand": "GP",
+    "image": "/images/products/enmotion-havlu.jpg",
+    "images": [
+      "/images/products/enmotion-havlu.jpg"
+    ],
+    "specs": {
+      "Kat": "1 Katlı",
+      "Metre": "150 m",
+      "Renk": "Beyaz"
+    },
+    "featured": false,
+    "order": 10,
+    "createdAt": "2024-01-18"
+  },
+  {
+    "id": "prod-11",
+    "name": "Çöp Kovası Battal Boy Kapaklı",
+    "slug": "cop-kovasi-battal-boy-kapakli",
+    "description": "Battal boy kapaklı çöp kovası. Yüksek hacimli atık toplama için profesyonel çözüm.",
+    "categoryId": "cat-5",
+    "brand": "Doyratem",
+    "image": "/images/products/cop-kovasi-battal.jpg",
+    "images": [
+      "/images/products/cop-kovasi-battal.jpg"
+    ],
+    "specs": {
+      "Kapasite": "70 Lt",
+      "Malzeme": "HDPE Plastik",
+      "Renk": "Gri"
+    },
+    "featured": true,
+    "order": 11,
+    "createdAt": "2024-01-18"
+  },
+  {
+    "id": "prod-12",
+    "name": "İtme Kapaklı Çöp Kovası 26 Lt",
+    "slug": "itme-kapakli-cop-kovasi-26-lt",
+    "description": "26 litre kapasiteli itme kapaklı çöp kovası. Ofis ve ticari alanlar için ideal boyut.",
+    "categoryId": "cat-5",
+    "brand": "Doyratem",
+    "image": "/images/products/cop-kovasi-26lt.jpg",
+    "images": [
+      "/images/products/cop-kovasi-26lt.jpg"
+    ],
+    "specs": {
+      "Kapasite": "26 Lt",
+      "Malzeme": "Plastik",
+      "Kapak": "İtme Kapaklı"
+    },
+    "featured": false,
+    "order": 12,
+    "createdAt": "2024-01-19"
+  },
+  {
+    "id": "prod-13",
+    "name": "Jumbo Çöp Poşeti 80x110",
+    "slug": "jumbo-cop-poseti-80-110",
+    "description": "80x110 cm boyutlarında jumbo çöp poşeti. Ağır yükler için ekstra dayanıklı yapı.",
+    "categoryId": "cat-6",
+    "brand": "Doyratem",
+    "image": "/images/products/jumbo-cop-poseti.jpg",
+    "images": [
+      "/images/products/jumbo-cop-poseti.jpg"
+    ],
+    "specs": {
+      "Boyut": "80x110 cm",
+      "Mikron": "40 mikron",
+      "Adet": "10'lu"
+    },
+    "featured": false,
+    "order": 13,
+    "createdAt": "2024-01-19"
+  },
+  {
+    "id": "prod-14",
+    "name": "Çöpçü Süpürgesi",
+    "slug": "copcu-supurgesi",
+    "description": "Profesyonel çöpçü süpürgesi. Dış mekan ve geniş alan temizliği için tasarlanmıştır.",
+    "categoryId": "cat-7",
+    "brand": "Doyratem",
+    "image": "/images/products/copcu-supurgesi.jpg",
+    "images": [
+      "/images/products/copcu-supurgesi.jpg"
+    ],
+    "specs": {
+      "Malzeme": "Doğal Kıl",
+      "Sap": "Ahşap",
+      "Genişlik": "40 cm"
+    },
+    "featured": true,
+    "order": 14,
+    "createdAt": "2024-01-20"
+  },
+  {
+    "id": "prod-15",
+    "name": "Çift Kovalı Temizlik Arabası",
+    "slug": "cift-kovali-temizlik-arabasi",
+    "description": "Çift kovalı profesyonel temizlik arabası. Sıkma aparatı ve sepet sistemiyle verimli temizlik imkânı sunar.",
+    "categoryId": "cat-8",
+    "brand": "Doyratem",
+    "image": "/images/products/cift-kovali-araba.jpg",
+    "images": [
+      "/images/products/cift-kovali-araba.jpg"
+    ],
+    "specs": {
+      "Kova Kapasitesi": "2x20 Lt",
+      "Malzeme": "PP Plastik",
+      "Tekerlek": "4 Adet"
+    },
+    "featured": true,
+    "order": 15,
+    "createdAt": "2024-01-20"
+  },
+  {
+    "id": "prod-16",
+    "name": "Kat Temizleme Arabası",
+    "slug": "kat-temizleme-arabasi",
+    "description": "Çok fonksiyonlu kat temizleme arabası. Otel, hastane ve ofis binaları için profesyonel temizlik çözümü.",
+    "categoryId": "cat-8",
+    "brand": "Doyratem",
+    "image": "/images/products/kat-temizleme-arabasi.jpg",
+    "images": [
+      "/images/products/kat-temizleme-arabasi.jpg"
+    ],
+    "specs": {
+      "Kova": "2x25 Lt",
+      "Raf": "3 Katlı",
+      "Torba": "Dahil"
+    },
+    "featured": true,
+    "order": 16,
+    "createdAt": "2024-01-21"
+  },
+  {
+    "id": "prod-17",
+    "name": "Alüminyum Sap Vidalı",
+    "slug": "aluminyum-sap-vidali",
+    "description": "Vidalı bağlantılı alüminyum sap. Hafif ve dayanıklı yapısıyla tüm temizlik aparatlarıyla uyumlu çalışır.",
+    "categoryId": "cat-1",
+    "brand": "Doyratem",
+    "image": "/images/products/aluminyum-sap.jpg",
+    "images": [
+      "/images/products/aluminyum-sap.jpg"
+    ],
+    "specs": {
+      "Malzeme": "Alüminyum",
+      "Uzunluk": "140 cm",
+      "Bağlantı": "Vidalı"
+    },
+    "featured": false,
+    "order": 17,
+    "createdAt": "2024-01-21"
+  },
+  {
+    "id": "prod-18",
+    "name": "Endüstriyel Çöpçü Faras",
+    "slug": "endustriyel-copcu-faras",
+    "description": "Endüstriyel kullanım için büyük boy çöpçü farası. Fabrika ve depo temizliğinde verimliliği artırır.",
+    "categoryId": "cat-7",
+    "brand": "Doyratem",
+    "image": "/images/products/copcu-faras.jpg",
+    "images": [
+      "/images/products/copcu-faras.jpg"
+    ],
+    "specs": {
+      "Malzeme": "Galvaniz Sac",
+      "Genişlik": "35 cm"
+    },
+    "featured": false,
+    "order": 18,
+    "createdAt": "2024-01-22"
+  },
+  {
+    "id": "prod-1775648576613",
+    "name": "8 li Tuvalet Kağıdı",
+    "slug": "8-li-tuvalet-kagidi",
+    "description": "8'li Tuvalet Kağıdı Selpak",
+    "categoryId": "cat-3",
+    "brand": "SELPAK",
+    "image": "/uploads/products/1775648547747-0c3yfo.jpg",
+    "images": [],
+    "specs": {},
+    "featured": true,
+    "order": 19,
+    "createdAt": "2026-04-08"
+  },
+  {
+    "id": "prod-1775649525168",
+    "name": "16 lı Tuvalet Kağıdı",
+    "slug": "16-li-tuvalet-kagidi",
+    "description": "16'lı Tuvalet Kağıdı Selpak",
+    "categoryId": "cat-3",
+    "brand": "Doyratem",
+    "image": "/uploads/products/1775649523151-v0to5h.jpg",
+    "images": [],
+    "specs": {
+      "Kat": "2",
+      "Metre": "2",
+      "Adet": "2"
+    },
+    "featured": true,
+    "order": 20,
+    "createdAt": "2026-04-08"
+  },
+  {
+    "id": "prod-1775651863467",
+    "name": "Batuhan Gökce",
+    "slug": "batuhan-gokce",
+    "description": "asdasdsadsa",
+    "categoryId": "cat-5",
+    "brand": "Doyratem",
+    "image": "/uploads/products/1775651861996-arbynw.jpg",
+    "images": [],
+    "specs": {
+      "Kapasite": "2",
+      "Malzeme": "2",
+      "Mekanizma": "4"
+    },
+    "featured": true,
+    "order": 21,
+    "createdAt": "2026-04-08"
+  }
+]

@@ -1,26 +1,124 @@
 @import "tailwindcss";
-
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
+@plugin "@tailwindcss/typography";
 
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
+  --color-background: #ffffff;
+  --color-foreground: #0f172a;
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+* {
+  scroll-behavior: smooth;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background: var(--color-background);
+  color: var(--color-foreground);
+  font-family: var(--font-sans), system-ui, -apple-system, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
+
+/* Utility: line clamp */
+.line-clamp-2 {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.line-clamp-3 {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+/* Tiptap editor placeholder */
+.tiptap p.is-editor-empty:first-child::before {
+  color: #94a3b8;
+  content: attr(data-placeholder);
+  float: left;
+  height: 0;
+  pointer-events: none;
+}
+
+/* ─── Scroll Animation System ─────────────────────────────────────────── */
+
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(32px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+@keyframes slideInLeft {
+  from { opacity: 0; transform: translateX(-40px); }
+  to   { opacity: 1; transform: translateX(0); }
+}
+
+@keyframes slideInRight {
+  from { opacity: 0; transform: translateX(40px); }
+  to   { opacity: 1; transform: translateX(0); }
+}
+
+@keyframes scaleIn {
+  from { opacity: 0; transform: scale(0.92); }
+  to   { opacity: 1; transform: scale(1); }
+}
+
+/* Base: elements start hidden */
+.anim-fade-up,
+.anim-fade-in,
+.anim-slide-left,
+.anim-slide-right,
+.anim-scale-in {
+  opacity: 0;
+}
+
+/* Triggered when .is-visible is added via IntersectionObserver */
+.is-visible.anim-fade-up    { animation: fadeUp      0.85s cubic-bezier(0.22,1,0.36,1) forwards; }
+.is-visible.anim-fade-in    { animation: fadeIn      0.75s ease forwards; }
+.is-visible.anim-slide-left { animation: slideInLeft 0.85s cubic-bezier(0.22,1,0.36,1) forwards; }
+.is-visible.anim-slide-right{ animation: slideInRight 0.85s cubic-bezier(0.22,1,0.36,1) forwards; }
+.is-visible.anim-scale-in   { animation: scaleIn     0.80s  cubic-bezier(0.22,1,0.36,1) forwards; }
+
+/* Stagger delays for grid children */
+.stagger-1 { animation-delay: 0.05s !important; }
+.stagger-2 { animation-delay: 0.15s !important; }
+.stagger-3 { animation-delay: 0.25s !important; }
+.stagger-4 { animation-delay: 0.35s !important; }
+.stagger-5 { animation-delay: 0.45s !important; }
+.stagger-6 { animation-delay: 0.55s !important; }
+.stagger-7 { animation-delay: 0.65s !important; }
+.stagger-8 { animation-delay: 0.75s !important; }
+
+/* Section divider wave */
+.section-wave {
+  display: block;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+/* ─── Hero Page-Load Animations ──────────────────────────────────────── */
+/* These play immediately without IntersectionObserver */
+
+.hero-animate {
+  animation-fill-mode: both;
+  animation-timing-function: cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.hero-badge   { animation: fadeUp 0.7s  0.1s  both cubic-bezier(0.22,1,0.36,1); }
+.hero-title   { animation: fadeUp 0.85s 0.25s both cubic-bezier(0.22,1,0.36,1); }
+.hero-desc    { animation: fadeUp 0.8s  0.4s  both cubic-bezier(0.22,1,0.36,1); }
+.hero-buttons { animation: fadeUp 0.8s  0.55s both cubic-bezier(0.22,1,0.36,1); }
+
+.hero-card-1  { animation: scaleIn 0.75s 0.4s  both cubic-bezier(0.22,1,0.36,1); }
+.hero-card-2  { animation: scaleIn 0.75s 0.55s both cubic-bezier(0.22,1,0.36,1); }
+.hero-card-3  { animation: scaleIn 0.75s 0.7s  both cubic-bezier(0.22,1,0.36,1); }
+.hero-card-4  { animation: scaleIn 0.75s 0.85s both cubic-bezier(0.22,1,0.36,1); }

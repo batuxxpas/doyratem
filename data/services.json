@@ -1,0 +1,42 @@
+[
+  {
+    "id": "srv-1",
+    "title": "Endüstriyel Temizlik Ürünleri",
+    "slug": "endustriyel-temizlik-urunleri",
+    "description": "Yüksek performanslı yüzey, zemin ve genel temizlik kimyasalları ile işletmenizin hijyen standartlarını en üst seviyeye taşıyoruz. Profesyonel kullanıma uygun geniş ürün yelpazemizle her sektöre çözüm sunuyoruz.",
+    "shortDescription": "Yüksek performanslı yüzey, zemin ve genel temizlik kimyasalları",
+    "image": "/images/services/endustriyel-temizlik.jpg",
+    "icon": "truck",
+    "order": 1
+  },
+  {
+    "id": "srv-2",
+    "title": "Kağıt Grubu",
+    "slug": "kagit-grubu",
+    "description": "Endüstriyel havlu kağıtlar, tuvalet kağıtları ve dispenser uyumlu ürünler. İşletmenizin günlük kağıt ihtiyaçlarını kaliteli ve ekonomik çözümlerle karşılıyoruz.",
+    "shortDescription": "Endüstriyel havlu kağıtlar, tuvalet kağıtları ve dispenser uyumlu ürünler",
+    "image": "/images/services/kagit-grubu.jpg",
+    "icon": "building",
+    "order": 2
+  },
+  {
+    "id": "srv-3",
+    "title": "Ambalaj Ürünleri",
+    "slug": "ambalaj-urunleri",
+    "description": "Streç filmler, paketleme malzemeleri ve koruyucu ambalaj çözümleri. Ürünlerinizin güvenli şekilde paketlenmesi ve taşınması için ihtiyacınız olan tüm ambalaj malzemelerini sunuyoruz.",
+    "shortDescription": "Streç filmler, paketleme malzemeleri ve koruyucu ambalaj çözümleri",
+    "image": "/images/services/ambalaj-urunleri.jpg",
+    "icon": "headphones",
+    "order": 3
+  },
+  {
+    "id": "srv-4",
+    "title": "Temizlik Ekipmanları",
+    "slug": "temizlik-ekipmanlari",
+    "description": "Temizlik arabaları, mop setleri ve profesyonel yardımcı ekipmanlar. İşletmenizin temizlik operasyonlarını kolaylaştıran profesyonel ekipman çözümleri sunuyoruz.",
+    "shortDescription": "Temizlik arabaları, mop setleri ve profesyonel yardımcı ekipmanlar",
+    "image": "/images/services/temizlik-ekipmanlari.jpg",
+    "icon": "zap",
+    "order": 4
+  }
+]

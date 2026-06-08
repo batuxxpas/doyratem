@@ -1,0 +1,83 @@
+[
+  {
+    "id": "cat-1",
+    "name": "Yer Temizleme Grubu",
+    "slug": "yer-temizleme-grubu",
+    "description": "Profesyonel yer temizleme ürünleri ve ekipmanları",
+    "image": "/images/categories/yer-temizleme.jpg",
+    "specFields": ["Malzeme", "Genişlik", "Ağırlık"],
+    "order": 1
+  },
+  {
+    "id": "cat-2",
+    "name": "Cam Temizleme Grubu",
+    "slug": "cam-temizleme-grubu",
+    "description": "Cam yüzey temizleme ürünleri ve aparatları",
+    "image": "/images/categories/cam-temizleme.jpg",
+    "specFields": ["Malzeme", "Boy", "Tip"],
+    "order": 2
+  },
+  {
+    "id": "cat-3",
+    "name": "Kağıt Grubu",
+    "slug": "kagit-grubu",
+    "description": "Endüstriyel kağıt ürünleri, havlu ve peçete çeşitleri",
+    "image": "/images/categories/kagit-grubu.jpg",
+    "specFields": ["Kat", "Metre", "Adet"],
+    "order": 3
+  },
+  {
+    "id": "cat-4",
+    "name": "Sıvı Grubu",
+    "slug": "sivi-grubu",
+    "description": "Profesyonel temizlik sıvıları ve kimyasalları",
+    "image": "/images/categories/sivi-grubu.jpg",
+    "specFields": ["Hacim", "Tip", "Kullanım Alanı"],
+    "order": 4
+  },
+  {
+    "id": "cat-5",
+    "name": "Çöp Kovaları",
+    "slug": "cop-kovalari",
+    "description": "Endüstriyel ve ticari çöp kovaları",
+    "image": "/images/categories/cop-kovalari.jpg",
+    "specFields": ["Kapasite", "Malzeme", "Mekanizma"],
+    "order": 5
+  },
+  {
+    "id": "cat-6",
+    "name": "Çöp Poşetleri",
+    "slug": "cop-posetleri",
+    "description": "Her boyutta profesyonel çöp poşetleri",
+    "image": "/images/categories/cop-posetleri.jpg",
+    "specFields": ["Boyut", "Mikron", "Adet"],
+    "order": 6
+  },
+  {
+    "id": "cat-7",
+    "name": "Fırça Grubu",
+    "slug": "firca-grubu",
+    "description": "Temizlik fırçaları ve süpürge çeşitleri",
+    "image": "/images/categories/firca-grubu.jpg",
+    "specFields": ["Malzeme", "Boy", "Tip"],
+    "order": 7
+  },
+  {
+    "id": "cat-8",
+    "name": "Temizlik Kova Setleri",
+    "slug": "temizlik-kova-setleri",
+    "description": "Profesyonel temizlik kova ve paspas setleri",
+    "image": "/images/categories/kova-setleri.jpg",
+    "specFields": ["Kapasite", "Parça Sayısı", "Malzeme"],
+    "order": 8
+  },
+  {
+    "id": "cat-9",
+    "name": "Konteyner Grubu",
+    "slug": "konteyner-grubu",
+    "description": "Atık toplama konteynerleri ve geri dönüşüm ekipmanları",
+    "image": "/images/categories/konteyner-grubu.jpg",
+    "specFields": ["Kapasite", "Malzeme", "Renk"],
+    "order": 9
+  }
+]
